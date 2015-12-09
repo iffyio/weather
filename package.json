@@ -1,0 +1,31 @@
+{
+  "name": "weather",
+  "version": "0.0.1",
+  "description": "a nifty weather app in your terminal",
+  "main": "weather.js",
+  "scripts": {
+    "start": "node weather.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iffyio/"
+  },
+  "keywords": [
+    "weather",
+    "terminal"
+  ],
+  "author": {
+    "name" : "Ifeanyi Ubah",
+    "url": "http://ifeanyi.co/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iffyio/"
+  },
+  "homepage": "https://github.com/iffyio/",
+  "dependencies": {
+    "request": "2.67.x",
+    "colors" : "1.1.x",
+    "minimist": "1.2.x"
+  }
+}
